@@ -1,21 +1,30 @@
 # Yurii Bakurov
 
-I build local-first AI, automation, and developer tools for real workflows: product discovery, document triage, home automation audits, cautious file operations, and small-business operations.
+I build local-first AI, automation, and developer tools for real workflows.
 
-I care about software that is useful before it is flashy: reproducible setup, clear safety boundaries, privacy-aware defaults, and workflows that a person can inspect before anything important changes.
+My work usually starts from messy, practical problems: product discovery, document triage, home automation audits, cautious file operations, small-business pre-accounting, and policy-governed agent workflows.
 
-## Selected Work
+I care about software that is useful before it is flashy: reproducible setup, clear safety boundaries, privacy-aware defaults, and changes a person can inspect before anything important happens.
 
-- [TaskSignal](https://github.com/Yurii201811/tasksignal) - AI-assisted problem discovery that turns public developer complaints into evidence-backed software opportunities and Codex-ready MVP prompts.
-- [Bokpilot](https://github.com/Yurii201811/bokpilot) - local-first pre-accounting assistant for Swedish small businesses, with human-reviewed BAS/VAT suggestions and export drafts.
-- [Paperless Review Companion](https://github.com/Yurii201811/paperless-review-companion) - manifest-first local-model review and triage for Paperless-ngx archives.
-- [Home Assistant Audit Toolkit](https://github.com/Yurii201811/home-assistant-audit-toolkit) - read-only audit bundle validation and upload-safe export tooling for Home Assistant setups.
-- [Mac Cleanup Manifest Toolkit](https://github.com/Yurii201811/mac-cleanup-manifest-toolkit) - cautious file cleanup CLI built around inspect, manifest, dry-run/apply, and undo workflows.
-- [Openclaw/Hermes OS](https://github.com/Yurii201811/openclaw-hermes-os) - policy-governed local agent operating system with shared queues, audit trails, approval gates, and budgets.
+## Portfolio Projects
+
+| Project | What it shows | Stack |
+| --- | --- | --- |
+| [TaskSignal](https://github.com/Yurii201811/tasksignal) | AI-assisted product discovery from public developer complaints into evidence-backed software opportunities and Codex-ready MVP prompts. | Python, FastAPI, Next.js, PostgreSQL |
+| [Bokpilot](https://github.com/Yurii201811/bokpilot) | Local-first pre-accounting assistant for Swedish small businesses, with human-reviewed BAS/VAT suggestions and export drafts. | Python, local web UI |
+| [Paperless Review Companion](https://github.com/Yurii201811/paperless-review-companion) | Manifest-first local-model review and triage for private Paperless-ngx archives. | Python, local models, CLI |
+| [Home Assistant Audit Toolkit](https://github.com/Yurii201811/home-assistant-audit-toolkit) | Read-only Home Assistant audit bundle validation and upload-safe export tooling. | Python, CLI, privacy-safe exports |
+| [Mac Cleanup Manifest Toolkit](https://github.com/Yurii201811/mac-cleanup-manifest-toolkit) | Cautious file cleanup built around inspect, manifest, dry-run/apply, and undo workflows. | Python, CLI, macOS workflows |
+| [Openclaw/Hermes OS](https://github.com/Yurii201811/openclaw-hermes-os) | Policy-governed local agent operating system with shared queues, audit trails, approval gates, and budgets. | Python, orchestration, policy engine |
+
+## Engineering Themes
+
+- Local-first defaults for sensitive workflows.
+- Human review before external effects.
+- Manifest, dry-run, audit trail, and rollback patterns.
+- Clear boundaries between experiments, forks, and owned portfolio work.
+- Tools that can be run, inspected, and improved without hidden services.
 
 ## Current Focus
 
-- Making local AI tools more practical for everyday work.
-- Turning messy personal and operational workflows into small, inspectable systems.
-- Keeping automation useful while preserving human review, privacy, and rollback paths.
-
+Making local AI tools more practical for everyday work, and turning messy personal and operational workflows into small, inspectable systems.
