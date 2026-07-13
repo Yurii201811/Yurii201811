@@ -11,6 +11,7 @@ I care about software that is useful before it is flashy: reproducible setup, cl
 | Project | What it demonstrates | Verification signal |
 | --- | --- | --- |
 | [TaskSignal](https://github.com/Yurii201811/tasksignal) | Full-stack AI-assisted product discovery from public developer complaints into evidence-backed software opportunities and Codex-ready MVP prompts. | Public release, CI, release-readiness workflow, Python/FastAPI/Next.js/PostgreSQL |
+| [MetroPulse Lakehouse](https://github.com/Yurii201811/metropulse-lakehouse) | End-to-end urban-mobility data engineering from deterministic source generation through DuckDB bronze/silver/gold layers, FastAPI, and a dependency-free dashboard. | CI, tests, quality gates, architecture documentation, and a local quick start |
 | [Bokpilot](https://github.com/Yurii201811/bokpilot) | Local-first pre-accounting assistant for Swedish small businesses, with human-reviewed BAS/VAT suggestions and export drafts. | Sample data, screenshots, unit tests, Python 3.10+ CI |
 | [Paperless Review Companion](https://github.com/Yurii201811/paperless-review-companion) | Manifest-first local-model review and triage for private Paperless-ngx archives. | CI, sample fixtures, CLI-first local review flow |
 | [Home Assistant Audit Toolkit](https://github.com/Yurii201811/home-assistant-audit-toolkit) | Read-only Home Assistant audit bundle validation and upload-safe export tooling. | CI, sanitized sample data, privacy-safe export tooling |
