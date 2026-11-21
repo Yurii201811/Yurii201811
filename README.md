@@ -8,14 +8,17 @@ I care about software that is useful before it is flashy: reproducible setup, cl
 
 ## Featured Portfolio
 
-| Project | What it demonstrates | Verification signal |
-| --- | --- | --- |
-| [TaskSignal](https://github.com/Yurii201811/tasksignal) | Full-stack AI-assisted product discovery from public developer complaints into evidence-backed software opportunities and Codex-ready MVP prompts. | Public release, CI, release-readiness workflow, Python/FastAPI/Next.js/PostgreSQL |
-| [MetroPulse Lakehouse](https://github.com/Yurii201811/metropulse-lakehouse) | End-to-end urban-mobility data engineering from deterministic source generation through DuckDB bronze/silver/gold layers, FastAPI, and a dependency-free dashboard. | CI, tests, quality gates, architecture documentation, and a local quick start |
-| [Bokpilot](https://github.com/Yurii201811/bokpilot) | Local-first pre-accounting assistant for Swedish small businesses, with human-reviewed BAS/VAT suggestions and export drafts. | Sample data, screenshots, unit tests, Python 3.10+ CI |
-| [Paperless Review Companion](https://github.com/Yurii201811/paperless-review-companion) | Manifest-first local-model review and triage for private Paperless-ngx archives. | CI, sample fixtures, CLI-first local review flow |
-| [Home Assistant Audit Toolkit](https://github.com/Yurii201811/home-assistant-audit-toolkit) | Read-only Home Assistant audit bundle validation and upload-safe export tooling. | CI, sanitized sample data, privacy-safe export tooling |
-| [Mac Cleanup Manifest Toolkit](https://github.com/Yurii201811/mac-cleanup-manifest-toolkit) | Cautious file cleanup built around inspect, manifest, dry-run, apply, and undo workflows. | CI, dry-run/apply/undo workflow, relative-path reports |
+| Project | Latest Release | What it demonstrates | Verification signal |
+| --- | --- | --- | --- |
+| [TaskSignal](https://github.com/Yurii201811/tasksignal) | `v1.0.0a3` | Full-stack AI-assisted product discovery from public developer complaints into evidence-backed software opportunities and Codex-ready build packets. | GitHub Release, 13-job CI (backend, frontend, PostgreSQL migration rehearsal, Linux/macOS package smoke, audits) |
+| [MetroPulse Lakehouse](https://github.com/Yurii201811/metropulse-lakehouse) | `v0.3.0` | End-to-end urban-mobility data engineering with replayable drift-aware DuckDB bronze/silver/gold snapshots, FastAPI, and a dependency-free operations console. | GitHub Release, Python 3.11–3.14 & Node 24 CI, 13 quality/drift gates |
+| [CloseProof](https://github.com/Yurii201811/closeproof) | `v1.0.0` | Source-linked month-end close review with deterministic controls, bounded advisory assistance, and human authority. | GitHub Release, 344 unit tests, Python 3.11–3.14 CI |
+| [SignalStack](https://github.com/Yurii201811/signalstack) | `v1.0.1` | Full-stack TypeScript/React/Express/SQLite product opportunity cockpit with auth, scoring, and pipeline metrics. | GitHub Release, Node 24 CI, typecheck/tests/build/audit |
+| [Bokpilot](https://github.com/Yurii201811/bokpilot) | `v0.1.1` *(v0.2 RC in CI)* | Local-first pre-accounting assistant for Swedish small businesses, with human-reviewed BAS/VAT suggestions and export drafts. | GitHub Release, workspace safety guards, Python 3.10–3.14 CI |
+| [Accounting Agent](https://github.com/Yurii201811/accounting-agent) | *(PR stack in review)* | Sweden-first, provider-neutral accounting automation core with dry-run safety boundaries, offline ERP readers, and local review cockpit. | Multi-OS QA, browser, security, and CodeQL gates |
+| [Paperless Review Companion](https://github.com/Yurii201811/paperless-review-companion) | `v0.2.0` | Manifest-first local-model review and triage for private Paperless-ngx archives with loopback privacy enforcement. | GitHub Release, 49 tests, Python 3.11–3.12 CI |
+| [Home Assistant Audit Toolkit](https://github.com/Yurii201811/home-assistant-audit-toolkit) | `v0.2.0` | Read-only Home Assistant audit bundle validation and SHA-256 integrity-verified upload-safe export tooling. | GitHub Release, 29 tests, Python 3.11–3.12 CI |
+| [Mac Cleanup Manifest Toolkit](https://github.com/Yurii201811/mac-cleanup-manifest-toolkit) | `v0.2.0` | Cautious file cleanup built around inspect, manifest, dry-run, apply, and preflighted undo workflows. | GitHub Release, 16 tests, Python 3.11–3.12 CI |
 
 ## Engineering Themes
 
